@@ -1,0 +1,62 @@
+{
+  "$schema": "https://mintlify.com/schema.json",
+  "name": "Grave Docs",
+  "logo": {
+    "dark": "/logo/gravelogo.png",
+    "light": "/logo/gravelogo.png"
+  },
+  "favicon": "/grave.svg",
+  "colors": {
+    "primary": "#7289da",
+    "light": "#7289da",
+    "dark": "#7289da",
+    "anchors": {
+      "from": "#7289da",
+      "to": "#7289da"
+    }
+  },
+  "topbarLinks": [
+    {
+      "name": "Support",
+      "url": "mailto:jacobdev1337@gmail.com"
+    }
+  ],
+  "topbarCtaButton": {
+    "name": "Website",
+    "url": "https://gravebot.xyz/"
+  },
+  "tabs": [
+    {
+      "name": "API Reference",
+      "url": "api-reference"
+    }
+  ],
+  "anchors": [
+    {
+      "name": "Documentation",
+      "icon": "book-open-cover",
+      "url": "https://docs.gravebot.xyz/"
+    },
+    {
+      "name": "Community",
+      "icon": "slack",
+      "url": "https://gravebot.xyz/support"
+    }
+  ],
+  "navigation": [
+    {
+      "group": "Get Started",
+      "pages": [
+        "introduction",
+        "configuration",
+        "usage",
+        "support"
+    ]
+    }
+  ],
+  "footerSocials": {
+    "x": "https://x.com/gravebot",
+    "github": "https://github.com/grave-bot",
+    "discord": "https://discord.gg/ghouls"
+  }
+}
